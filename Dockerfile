@@ -23,7 +23,6 @@ RUN python3 -m pip install --upgrade \
 
 RUN python3 -m pip install --upgrade pymongo
 
-RUN python3 -m pip install Pillow
 
 # CMD ["scrapy", "shell", "--nolog"]
 CMD ["bash"]
